@@ -1999,21 +1999,21 @@ a:hover.back-to-top {
       top: 20px;
     }
     to {
-      top: 40px;
+      top: 28px;
     }
   }
   .header .image-container .img-wrapper {
     width: 630px;
     animation-name: example;
-    animation-duration: 3s;
-    animation-delay: 2s;
+    animation-duration: 1s;
+    animation-delay: 1s;
     animation-fill-mode: backwards;
   }
   .header-frame {
     position: relative;
     background-color: #ff9051;
     z-index: 3;
-    height: 10.375rem;
+    height: 9.375rem;
   }
   /* end of header */
 

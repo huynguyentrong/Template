@@ -1996,13 +1996,14 @@ a:hover.back-to-top {
   }
   @keyframes example {
     from {
-      top: 20px;
+      top: 0px;
     }
     to {
-      top: 40px;
+      top: 200px;
     }
   }
   .header .image-container .img-wrapper {
+    z-index: 0.5;
     width: 630px;
     animation-name: example;
     animation-duration: 3s;
@@ -2010,10 +2011,7 @@ a:hover.back-to-top {
     animation-fill-mode: backwards;
   }
   .header-frame {
-    position: relative;
-    background-color: #ff9051;
-    z-index: 3;
-    height: 10.375rem;
+    height: 9.375rem;
   }
   /* end of header */
 

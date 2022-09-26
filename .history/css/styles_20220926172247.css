@@ -1999,7 +1999,7 @@ a:hover.back-to-top {
       top: 20px;
     }
     to {
-      top: 40px;
+      top: 200px;
     }
   }
   .header .image-container .img-wrapper {
@@ -2013,7 +2013,7 @@ a:hover.back-to-top {
     position: relative;
     background-color: #ff9051;
     z-index: 3;
-    height: 10.375rem;
+    height: 9.375rem;
   }
   /* end of header */
 

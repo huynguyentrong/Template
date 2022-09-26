@@ -1999,13 +1999,13 @@ a:hover.back-to-top {
       top: 20px;
     }
     to {
-      top: 40px;
+      top: 28px;
     }
   }
   .header .image-container .img-wrapper {
     width: 630px;
     animation-name: example;
-    animation-duration: 3s;
+    animation-duration: 2s;
     animation-delay: 2s;
     animation-fill-mode: backwards;
   }
