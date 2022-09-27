@@ -2035,8 +2035,20 @@ a:hover.back-to-top {
     width: 12.5rem;
   }
   /* end of description */
+  @keyframes Smooth {
+    from {
+      bottom: 20px;
+    }
+    to {
+      top: 40px;
+    }
+  }
   /* Features */
   .tabs .image-container {
+    animation-name: Smooth;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-fill-mode: backwards;
     margin-right: 1.5rem;
     margin-left: 1rem;
   }
