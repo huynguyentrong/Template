@@ -2030,15 +2030,11 @@ a:hover.back-to-top {
     margin-right: 2rem;
     margin-left: 2rem;
   }
-  .cards-1 .card-image img {
-    border: 5px solid #ffb547;
-    border-radius: 50%;
-  }
+
   .cards-1 .card-image {
     width: 12.5rem;
   }
   /* end of description */
-
   /* Features */
   .tabs .image-container {
     margin-right: 1.5rem;
