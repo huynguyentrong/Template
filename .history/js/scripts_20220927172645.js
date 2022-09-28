@@ -9,11 +9,12 @@
   $(function () {
     //  ✅ GOOD - using `.val()` function
     let valueDisplay = $(".value");
-    let valueInterval = 3000;
-    valueDisplay.each(function (index, value) {
-      let startValue = 0;
-      let endValue = $(value).attr("data-val");
-      let duration = Math.floor(valueInterval / endValue);
+    let interval = $(interval).val(3000);
+    valueDisplay.each(function (index, valueDisplay) {
+      $("startValue").val(0);
+      let endValue = $(valueDisplay).attr("data-val");
+      let duration = $(Math.floor($(interval) / $(endValue)));
+      console.log(duration);
     });
   });
   /* Preloader */

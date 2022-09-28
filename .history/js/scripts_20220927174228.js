@@ -14,6 +14,13 @@
       let startValue = 0;
       let endValue = $(value).attr("data-val");
       let duration = Math.floor(valueInterval / endValue);
+      let counter = setInterval(function () {
+        startValue += 1;
+        value.text() = startValue;
+        if (startValue == endValue) {
+          clearInterval(counter)
+        }
+      }, duration);
     });
   });
   /* Preloader */

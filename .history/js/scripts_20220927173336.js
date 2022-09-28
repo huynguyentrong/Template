@@ -10,10 +10,11 @@
     //  ✅ GOOD - using `.val()` function
     let valueDisplay = $(".value");
     let valueInterval = 3000;
-    valueDisplay.each(function (index, value) {
+    valueDisplay.each(function (index, valueDisplay) {
       let startValue = 0;
-      let endValue = $(value).attr("data-val");
+      let endValue = $(valueDisplay).attr("data-val");
       let duration = Math.floor(valueInterval / endValue);
+      console.log(duration);
     });
   });
   /* Preloader */

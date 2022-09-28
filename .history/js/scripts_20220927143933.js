@@ -5,17 +5,7 @@
 */
 (function ($) {
   "use strict";
-  /* valueDisplay */
-  $(function () {
-    //  ✅ GOOD - using `.val()` function
-    let valueDisplay = $(".value");
-    let valueInterval = 3000;
-    valueDisplay.each(function (index, value) {
-      let startValue = 0;
-      let endValue = $(value).attr("data-val");
-      let duration = Math.floor(valueInterval / endValue);
-    });
-  });
+
   /* Preloader */
   $(window).on("load", function () {
     var preloaderFadeOutTime = 500;

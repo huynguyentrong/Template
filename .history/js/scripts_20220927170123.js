@@ -6,14 +6,14 @@
 (function ($) {
   "use strict";
   /* valueDisplay */
-  $(function () {
-    //  ✅ GOOD - using `.val()` function
+  $(document).ready(function () {
+    // ✅ GOOD - using `.val()` function
     let valueDisplay = $(".value");
-    let valueInterval = 3000;
+    $("interval").val(3000);
     valueDisplay.each(function (index, value) {
-      let startValue = 0;
-      let endValue = $(value).attr("data-val");
-      let duration = Math.floor(valueInterval / endValue);
+      $("startValue").value(0);
+      let endValue = value.attr("data-val");
+      console.log(endValue);
     });
   });
   /* Preloader */
