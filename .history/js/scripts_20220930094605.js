@@ -6,6 +6,23 @@
 (function ($) {
   "use strict";
   /* valueDisplay */
+  $(function () {
+    //  ✅ GOOD - using `.val()` function
+    let valueDisplay = $(".value");
+    let valueInterval = 3000;
+    valueDisplay.each(function (index, value) {
+      let startValue = 0;
+      console.log(value);
+      let endValue = $(value).attr("data-val");
+      let duration = Math.floor(valueInterval / endValue);
+      let counter = setInterval(function () {
+        startValue += 1;
+        if (startValue == endValue) {
+          clearInterval(counter);
+        }
+      }, duration);
+    });
+  });
   /* Preloader */
   $(window).on("load", function () {
     var preloaderFadeOutTime = 500;

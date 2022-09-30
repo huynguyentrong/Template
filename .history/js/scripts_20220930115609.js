@@ -53,6 +53,7 @@
 
   /* Image Slider - Swiper */
   var imageSlider = new Swiper(".image-slider", {
+    clickable: true,
     autoplay: {
       delay: 2000,
       disableOnInteraction: false,
